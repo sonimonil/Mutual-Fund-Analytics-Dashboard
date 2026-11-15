@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Mutual Fund Analytics Dashboard: a ₹10,000 monthly SIP since 2016 grew to ₹35.6 lakh" width="100%">
+  <img src="https://cdn.jsdelivr.net/gh/sonimonil/Mutual-Fund-Analytics-Dashboard@main/assets/banner.svg" alt="Mutual Fund Analytics Dashboard: a ₹10,000 monthly SIP since 2016 grew to ₹35.6 lakh" width="100%">
 </p>
 
 <p align="center">
