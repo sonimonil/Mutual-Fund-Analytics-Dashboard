@@ -4,7 +4,7 @@
 <linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".45"/><stop offset="1" stop-color="#2DD4BF" stop-opacity=".03"/></linearGradient></defs>
 <rect width="1200" height="340" rx="18" fill="url(#bg)"/><rect width="1200" height="340" rx="18" fill="url(#g1)"/>
 <g font-family="Segoe UI,Inter,Helvetica,Arial,sans-serif">
-<rect x="48" y="44" width="276" height="34" rx="17" fill="#F2C811"/><text x="66" y="67" font-size="16" font-weight="800" letter-spacing="1.6" fill="#0B1222">POWER BI · LIVE NAV DATA</text>
+<rect x="48" y="44" width="300" height="34" rx="17" fill="#F2C811"/><text x="66" y="67" font-size="16" font-weight="800" letter-spacing="1.6" fill="#0B1222">POWER BI · LIVE NAV DATA</text>
 <text x="48" y="138" font-size="48" font-weight="900" fill="#fff" letter-spacing="-1">Mutual Fund</text>
 <text x="48" y="194" font-size="48" font-weight="900" fill="#2DD4BF" letter-spacing="-1">Analytics Dashboard</text>
 <text x="48" y="236" font-size="19" fill="#C9D4EA">41 Indian funds · 10+ years of daily NAVs · 8 report pages</text>
