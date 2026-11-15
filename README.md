@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Mutual Fund Analytics Dashboard: a ₹10,000 monthly SIP since 2016 grew to ₹35.6 lakh" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/DAX-UDFs%20%C2%B7%20Calc%20groups-2DD4BF?style=for-the-badge" alt="DAX">
+  <img src="https://img.shields.io/badge/Power%20Query-M-4FA3F7?style=for-the-badge" alt="Power Query">
+  <img src="https://img.shields.io/badge/Data-AMFI%20NAV%20API-A78BFA?style=for-the-badge" alt="AMFI NAV data">
+  <img src="https://img.shields.io/badge/Python-verified-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python verified">
+</p>
+
 # Mutual Fund Analytics Dashboard (live)
 
 A Power BI report on 41 Indian mutual funds, built on **live NAV data**. Every
@@ -88,9 +100,17 @@ ratio, benchmark excess and SIP XIRR **independently in plain Python**.
   not an assumed number.
 - **Not investment advice.** This is an analysis of published NAVs.
 
+## What's in this repo
+
+| Path | What it is |
+|---|---|
+| `Mutual Fund Analytics Dashboard.pbix` | The report, ready to open in Power BI Desktop |
+| `Data/nav_snapshot.csv` | A reference snapshot of the NAVs (about 132,000 rows, up to 13 Nov 2026), so the figures above can be checked without refreshing. The report itself reads live data from the API. |
+| `assets/` | README banner |
+
 ## Opening it
 
-1. Open `Mutual Fund Analytics Dashboard.pbip` in Power BI Desktop. A recent
+1. Open `Mutual Fund Analytics Dashboard.pbix` in Power BI Desktop. A recent
    version is required for DAX user-defined functions.
 2. Click **Refresh**. The first time, Desktop asks two one-time questions:
    - *Access Web content*: choose **Anonymous** and click **Connect**.
@@ -102,3 +122,11 @@ ratio, benchmark excess and SIP XIRR **independently in plain Python**.
 source credentials*, set the web source to Anonymous / Public, then turn on
 **scheduled refresh**. AMFI publishes NAVs every business evening, so a daily
 refresh at around 10 pm IST keeps the report current.
+
+---
+
+<p align="center">
+  Built by <b>Monil Soni</b> · Power BI Developer ·
+  <a href="https://github.com/sonimonil">GitHub</a><br>
+  <sub>An analysis of published NAVs. Not investment advice.</sub>
+</p>
